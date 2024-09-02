@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Calculadora de Pagamento</title>
+</head>
+<body>
+    <form>
+        <h1>Calculadora de Pagamento</h1>
+        <p>Valor do produto:</p>
+        <input type="text" id="txtvalor"><br>
+        
+        <p>Forma de Pagamento:</p>
+        <select id="txtpagamento">
+            <option value="1">À vista em dinheiro: 10% de desconto</option>
+            <option value="2">Cartão de crédito à vista: 5% de desconto</option>
+            <option value="3">Parcelado em 3 vezes: 5% de aumento</option>
+            <option value="4">Parcelado em 6 vezes: 10% de aumento</option>
+            <option value="5">Parcelado em 12 vezes: 15% de aumento</option>
+            <option value="6">Cheque pré-datado: 7% de desconto</option>
+        </select>
+        <br>
+
+        <p>Valor real do produto:</p>
+        <input type="text" id="txtreal" readonly><br>
+        
+        <p>Valor total a pagar:</p>
+        <input type="text" id="txtpagar" readonly><br>
+        
+        <input type="button" value="Calcular" id="botao">
+    </form>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

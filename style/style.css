@@ -1,0 +1,61 @@
+/* Style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #89a7b1, #cbdad5, #3a415a);
+    color: #3a415a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #566981;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Full width minus padding */
+}
+
+input[type="button"] {
+    background-color: #3a415a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #2c354a;
+}
+
+input[readonly] {
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: not-allowed;
+}
